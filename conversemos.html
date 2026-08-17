@@ -234,22 +234,9 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;}
 
 <section class="hero" style="padding-bottom:0;">
   <div class="hero-inner">
-    <p class="eyebrow"><span class="dot" style="background:var(--dot-teal)"></span>Empecemos por aquí</p>
-    <h1>Si llegaste hasta aquí, probablemente ya compartimos alguna pregunta.</h1>
-    <p class="hero-sub">Nos dará mucho gusto seguir esa conversación contigo.</p>
-  </div>
-</section>
-
-<section class="tight">
-  <div class="wrap">
-    <div class="measure reveal">
-      <div class="res-grid" style="grid-template-columns:repeat(2,1fr);margin-top:0;">
-        <div class="res-card"><h3>Quiero conocer la comunidad</h3></div>
-        <div class="res-card"><h3>Tengo una idea</h3></div>
-        <div class="res-card"><h3>Necesito orientación</h3></div>
-        <div class="res-card"><h3>Quiero compartir algo</h3></div>
-      </div>
-    </div>
+   <p class="eyebrow"><span class="dot" style="background:var(--dot-teal)"></span>Empecemos por aquí</p>
+<h1>Que bueno que llegaste hasta aquí. Queremos conocerte.</h1>
+<p class="hero-sub">Escríbenos. Este es un espacio seguro.</p>
   </div>
 </section>
 
@@ -257,18 +244,18 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;}
   <div class="wrap">
     <div class="measure reveal">
       <h2>Escríbenos</h2>
-      <form onsubmit="return false" style="margin-top:32px;">
+      <form action="https://formspree.io/f/xgawngvr" method="POST" style="margin-top:32px;">
         <div class="field">
           <label>Nombre</label>
-          <input type="text" placeholder="Tu nombre">
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
         </div>
         <div class="field">
           <label>Correo</label>
-          <input type="email" placeholder="tu@correo.com">
+          <input type="email" name="email" placeholder="tu@correo.com" required>
         </div>
         <div class="field">
           <label>Mensaje</label>
-          <textarea rows="4" placeholder="Contanos qué te gustaría conversar"></textarea>
+          <textarea name="mensaje" rows="4" placeholder="Contanos qué te gustaría conversar" required></textarea>
         </div>
         <button class="btn btn-primary" type="submit">Enviar</button>
       </form>
@@ -292,7 +279,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;}
 <section class="tight">
   <div class="wrap">
     <div class="measure reveal">
-      <p class="body" style="color:var(--ink-soft);">No prometemos responder de inmediato. Prometemos responder con cuidado — normalmente en dos o tres días.</p>
+      <p class="body" style="color:var(--ink-soft);">No prometemos responder de inmediato. Prometemos responder con cuidado (normalmente en dos o tres días).</p>
     </div>
   </div>
 </section>
@@ -300,7 +287,7 @@ footer{border-top:1px solid var(--line);padding:56px 0 40px;}
 <section class="cta">
   <div class="wrap">
     <h2 class="reveal">Gracias por llegar hasta aquí.</h2>
-    <p class="lede center reveal" style="margin-top:12px;">Esperamos encontrarnos pronto, dentro o fuera de esta pantalla.</p>
+    <p class="lede center reveal" style="margin-top:12px;">Esperamos encontrarnos pronto.</p>
   </div>
 </section>
 
